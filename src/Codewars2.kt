@@ -1,2 +1,0 @@
-class Codewars2 {
-}
