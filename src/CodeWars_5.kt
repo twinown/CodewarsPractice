@@ -1,0 +1,2 @@
+class CodeWars_5 {
+}
