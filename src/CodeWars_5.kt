@@ -1,3 +1,5 @@
 class CodeWars_5 {
-    fun gg(b:Int){}
+    fun gg(b:Int):Int{
+        return b;
+    }
 }
