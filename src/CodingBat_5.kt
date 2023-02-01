@@ -1,0 +1,2 @@
+class CodingBat_5 {
+}
