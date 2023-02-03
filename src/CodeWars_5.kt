@@ -1,6 +1,4 @@
-import kotlin.math.abs
-
-object CodingBat_5 {
+object CodeWars_5 {
     fun makeNegative(x: Int) = if (x < 0) x else x * (-1)
 
     //easier way
