@@ -1,6 +1,7 @@
 object CodeWars_6 {
 
 
+        @JvmStatic
         fun findSmallestInt(nums: List<Int>)= nums.minOrNull()
 
     @JvmStatic
