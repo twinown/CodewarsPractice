@@ -7,5 +7,5 @@ s = 1*/
 
 /*result = 61000*/
 class CodeWars_9 {
-    fun mS (h:Int, m:Int, s:Int) = ((3600*h) + (60 * m) + s)*1000
+    fun mS (h:Int, m:Int, s:Int) = (3600*h + 60 * m + s)*1000
 }
