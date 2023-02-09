@@ -1,4 +1,4 @@
-object CodeWars_5 {
+object CodeWars_5_tipo_ternarnii {
     fun makeNegative(x: Int) = if (x < 0) x else x * (-1)
 
     //easier way

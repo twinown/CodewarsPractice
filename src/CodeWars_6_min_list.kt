@@ -1,4 +1,4 @@
-object CodeWars_6 {
+object CodeWars_6_min_list {
 
 
         @JvmStatic
