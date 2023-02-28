@@ -1,4 +1,4 @@
-object CodeWars_21_comparing_char_in_two_strings {
+object CodeWars_21_zikl_for_comparing_char_in_two_strings {
     fun getCount(str : String) : Int {
         val vowels = "aeiou"
         var count = 0
