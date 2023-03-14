@@ -1,4 +1,4 @@
-object CodeWars_36 {
+object CodeWars_36_rabota_s_map_zamena_bukv_v_slove {
     fun makeComplement(dna: String): String {
         var ns = ""
         for (i in dna.indices) {
