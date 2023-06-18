@@ -8,13 +8,12 @@ public class CodeWars_58 {
         boolean mainFlag = false;
         boolean minusOneFlag = false;
         String str  = Long.toString(n);
-        int [] arr = new int[str.length()];
+        long [] arr = new long[str.length()];
         for (int i = 0; i <str.length() ; i++) {
             arr[i] = Character.getNumericValue(str.charAt(i));
-            if (arr[i]<arr[i+1]){
-                min = arr[i];
-                if (a)
-            }
+        }
+        for (int i = 0; i < str.length()-1; i++) {
+            minusOneFlag = arr[i] > arr[i + 1] || arr[i] == arr[i + 1];
         }
         List<String> chars = new ArrayList<>();
         while (!minusOneFlag&&!mainFlag&&str.length()>1){
@@ -35,6 +34,6 @@ public class CodeWars_58 {
     }
 
     public static void main(String[] args) {
-        System.out.println(nextBiggerNumber(1));
+        System.out.println(nextBiggerNumber(1234567980));
     }
 }
