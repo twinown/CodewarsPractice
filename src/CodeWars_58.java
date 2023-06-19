@@ -34,6 +34,6 @@ public class CodeWars_58 {
     }
 
     public static void main(String[] args) {
-        System.out.println(nextBiggerNumber(1234567980));
+        System.out.println(nextBiggerNumber(1234567908));
     }
 }
