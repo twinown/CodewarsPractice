@@ -1,10 +1,15 @@
 object CodeWars_66 {
 
-    //  сам паттерн "(?<=нужное слово).*$"
+    //  сам паттерн "(?<=нужное слово).*$" - для тупо замены после слова на один символ исп. replace
 
-    //тут другое уже ----оч тяжелая хрень
+
+    // Regex("(?<=password=).*\$").replace(urlString)
+    //        { "*".repeat(it.value.length) } - то же,что и сверху, но заменятся КАЖДЫЙ символ после регулярки
+
+
+
     fun hidePasswordFromConnection(urlString: String): String {
-        return Regex("(?<=password=)[^&]*").replace(urlString)
+        return Regex("(?<=password=).*\$").replace(urlString)
         { "*".repeat(it.value.length) }
     }
 
@@ -15,3 +20,5 @@ object CodeWars_66 {
             "jdbc:mysql://sdasdasdasd:szdasdasd:dfsdfsdfsdf/sdfsdfsdf?user=root&password=12345"))
     }
 }
+
+
