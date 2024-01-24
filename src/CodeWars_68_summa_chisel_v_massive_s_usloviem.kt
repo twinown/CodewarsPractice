@@ -1,4 +1,4 @@
-class CodeWars_67_summa_chisel_v_massive_s_usloviem {
+class CodeWars_68_summa_chisel_v_massive_s_usloviem {
     fun sum(numbers: IntArray) = numbers.sumOf { if (it>=0) it
     else 0}
 
