@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class CodeWars_87_obedinenie_slov_v_massive {
+public class CodeWars_88_obedinenie_slov_v_massive {
     public static String smash(String... words) {
         return Arrays.toString(words).replaceAll("[\\[\\],]","");
         //можно и так
