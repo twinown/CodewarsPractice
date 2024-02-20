@@ -1,0 +1,3 @@
+class CodeWars_89 {
+
+}
