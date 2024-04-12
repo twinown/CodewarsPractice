@@ -14,8 +14,22 @@ Empty strings should return an empty string.
 Your code should be able to work for both lower and capital case letters.*/
 object CodeWars_131 {
 
+    //топ
+    fun stringExpansion(s: String): String = buildString {
+        var numberPrefix = 1
+        s.forEach {
+            if (it in "0123456789") {
+                numberPrefix = it.toString().toInt()
+            } else {
+                append(it.toString().repeat(numberPrefix))
+            }
+        }
+    }
 
-    fun stringExpansion(s: String): String {
+
+    //решение хрень моё
+
+  /*  fun stringExpansion(s: String):String {
         var ns = "";
         for (i in 0..s.length-1){
             if (s[i].isLetter()&&i!=0){
@@ -27,10 +41,11 @@ object CodeWars_131 {
             }else if (s[i].isLetter()){
                 ns+=s[i]}
         }
-        TODO("finish")
-        return if (s.count { it.isDigit() } ==1&&s[0].isDigit()) ""
+
+        return if (s.count { it.isDigit() } ==1&&s[0].isDigit())
+            s.map { it.toString().repeat(s[0].digitToInt()) }.joinToString().replace(Regex("[0-9, ]"),"")
               else ns
-    }
+    }*/
     @JvmStatic
     fun main(args: Array<String>) {
         println(stringExpansion("3abc"))
