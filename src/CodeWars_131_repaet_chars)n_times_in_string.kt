@@ -1,5 +1,3 @@
-import javax.xml.stream.events.Characters
-
 /*Given a string that includes alphanumeric characters ("3a4B2d") return
 the expansion of that string: The numeric values represent the occurrence
 of each letter preceding that numeric value. There should be no numeric
@@ -12,7 +10,7 @@ If there are multiple consecutive numeric characters, only the last one
 should be used (ignore the previous ones)
 Empty strings should return an empty string.
 Your code should be able to work for both lower and capital case letters.*/
-object CodeWars_131 {
+object `CodeWars_131_repaet_chars)n_times_in_string` {
 
     //топ
     fun stringExpansion(s: String): String = buildString {
