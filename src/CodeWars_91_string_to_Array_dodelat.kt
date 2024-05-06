@@ -1,5 +1,5 @@
 object CodeWars_91_string_to_Array_dodelat {
-    fun high(str: String) : String {
+/*    fun high(str: String) : String {
         var score = 0
         var alphabetNumber = 1
         val alphabetMap = mutableMapOf<Char, Int>()
@@ -16,5 +16,5 @@ object CodeWars_91_string_to_Array_dodelat {
     @JvmStatic
     fun main(args: Array<String>) {
         println(high("mama"))
-    }
+    }*/
 }

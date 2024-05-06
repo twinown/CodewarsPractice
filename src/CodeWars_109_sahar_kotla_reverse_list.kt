@@ -15,8 +15,8 @@ object CodeWars_109_sahar_kotla_reverse_list {
     }*/
 
     //и ещё суперсахар
-
-    /*fun reverse(a: List<String>): List<String> {
+    //хрень какая - то
+   /* fun reverse(a: List<String>): List<String> {
         val str = a.joinToString("").reversed().iterator()
         return a.map { Array(it.length) { str.nextChar() }.joinToString("") }
     }*/

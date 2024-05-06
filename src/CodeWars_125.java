@@ -15,6 +15,10 @@ public class CodeWars_125 {
             sum+=arr[i] - arr[i+1];
         }
         return sum;
+
+        //проще
+        //Arrays.sort(arr);
+        //		return arr.length <= 1 ? 0 : arr[arr.length-1] - arr[0];
     }
 
 

@@ -1,4 +1,4 @@
-public class CodeWars_96 {
+public final class CodeWars_96 {
     public static boolean betterThanAverage(int[] classPoints, int yourPoints) {
         int res = 0;
         for(int i : classPoints){
