@@ -7,6 +7,9 @@ public class CodeWars_71_copyofrange_java {
     }
 
     public static void main(String[] args) {
+
+        String mm = "done";
+
         System.out.println(Arrays.toString(take(new int[]{0}, 2)));
     }
 }
