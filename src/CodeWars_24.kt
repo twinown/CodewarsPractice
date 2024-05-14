@@ -7,6 +7,7 @@ Example:
 evaporator(10, 10, 5) -> 29
 */
 object CodeWars_24 {
+
     fun evaporator(content: Double, evap_per_day: Double, threshold: Double): Int {
         var day = 0
         var tot  = 100.0

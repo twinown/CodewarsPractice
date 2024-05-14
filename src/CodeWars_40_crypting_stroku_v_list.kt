@@ -1,5 +1,14 @@
 object CodeWars_40_crypting_stroku_v_list {
     fun encryptThis(text: String): String {
+
+        val l :Long = "42".toLong()
+
+        val test = 32 to 40
+        var i :Int
+        val ll:List<Int> = listOf(1,2,3)
+
+
+
         var allN = ""
         val list = listOf(*text.split(" ").toTypedArray())
         for (n in list.indices) {

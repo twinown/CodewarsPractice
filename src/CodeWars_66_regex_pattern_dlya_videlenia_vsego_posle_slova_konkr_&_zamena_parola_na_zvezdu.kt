@@ -4,12 +4,12 @@ object CodeWars_66 {
 
 
     // Regex("(?<=password=).*\$").replace(urlString)
-    //        { "*".repeat(it.value.length) } - то же,что и сверху, но заменятся КАЖДЫЙ символ после регулярки
+    //        { "*".repeat(it.value.length) } - заменятся КАЖДЫЙ символ после регулярки
 
 
 
     fun hidePasswordFromConnection(urlString: String): String {
-        return Regex("(?<=password=).*\$").replace(urlString)
+        return Regex("(?<=password=)[^&]*").replace(urlString)
         { "*".repeat(it.value.length) }
     }
 

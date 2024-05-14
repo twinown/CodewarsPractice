@@ -7,9 +7,18 @@ public class CodeWars_71_copyofrange_java {
     }
 
     public static void main(String[] args) {
-
-        String mm = "done";
-
-        System.out.println(Arrays.toString(take(new int[]{0}, 2)));
+        try {
+            System.out.print("1");
+            int a = 2 / 0;
+            System.out.print("2");
+        } catch (IllegalArgumentException e) {
+            System.out.print("3");
+        } catch (NullPointerException e) {
+            System.out.print("4");
+        } catch (Exception e) {
+            System.out.print("5");
+        } finally {
+            System.out.print("6");
+        }
     }
 }
