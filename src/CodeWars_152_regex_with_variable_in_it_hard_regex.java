@@ -7,6 +7,7 @@
         apples, pears # and bananas
         grapes
         bananas !apples
+
         The output expected would be:
 
         apples, pears
