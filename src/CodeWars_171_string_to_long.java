@@ -1,4 +1,5 @@
-public class CodeWars_171 {
+public class CodeWars_171_string_to_long {
+    //можно было так
      // return Long.valueOf(value.replaceAll("\\D", ""));
     public static long filterString(final String value) {
         String newValue = "";
