@@ -4,7 +4,6 @@ import java.util.List;
 
 public class CodeWars_175_list_to_string_array {
     public static String[] wave(String str) {
-        str = str.toLowerCase();
         List<String> list = new ArrayList<>();
         for(int i = 0;i<str.length();i++){
             if (str.charAt(i)!=' ') {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CodeWars_176 {
+public class CodeWars_176_list_Integer_to_int_array {
 
     public static int [] arrayDiff(int[] a, int[] b) {
         List<Integer> list = new ArrayList<>();
