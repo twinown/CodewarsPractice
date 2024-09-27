@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class CodeWars_192 {
+public class CodeWars_192_radix {
     /*int number = 0;
         for (int bit : binary)
     number = number << 1 | bit;
