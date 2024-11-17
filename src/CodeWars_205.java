@@ -1,9 +1,9 @@
 public class CodeWars_205 {
-    public static int closeCompare(double a, double b) {
-        return 0; // TODO
-    }
-
-    public static int closeCompare(double a, double b, double margin) {
-        return 0; // TODO
+    public static String oddOrEven (int[] array) {
+        int sum = 0;
+        for (int i: array){
+            sum+=i;
+        }
+        return sum%2==0?"even":"odd";
     }
 }
