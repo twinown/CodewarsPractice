@@ -1,4 +1,5 @@
 package java_explanations.composition_agregation;
+
 class Solution_Agregation_Composition {
     public static void main(String[] args) {
 
@@ -8,8 +9,11 @@ class Solution_Agregation_Composition {
         B b = new B(a);
         b.show();// будет "A show called"
 
+        C c = new C(a);
+        c.show();
+
         D d = new D();
-        d.show();//будет ошибка -> NPE ! сначала надо зааттачиться
+       // d.show();//будет ошибка -> NPE ! сначала надо зааттачиться
         d.attach(a);
         d.show();//надо тут
 
