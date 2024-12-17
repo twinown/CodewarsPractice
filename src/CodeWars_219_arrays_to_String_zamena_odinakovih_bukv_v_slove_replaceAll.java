@@ -1,4 +1,4 @@
-public class CodeWars_219_arrays_to_String_zamena_odinakovih_bukv_v_slove {
+public class CodeWars_219_arrays_to_String_zamena_odinakovih_bukv_v_slove_replaceAll {
 
     static String encode(String word){
         word = word.toLowerCase();

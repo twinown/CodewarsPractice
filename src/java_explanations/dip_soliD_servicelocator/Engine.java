@@ -27,6 +27,8 @@ class Car {
     private final Engine engine;
 
     // Получение зависимости через Service Locator
+    //видишь, та же агрегации, но через сервис локатор
+    //новый класс создаётся снаружи, вызвав метод регистрлокатор у сервис локатора
     public Car() {
         engine = ServiceLocator.getService(Engine.class);
     }

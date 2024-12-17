@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class CodeWars_218 {
+public class CodeWars_218_char_to_int {
     //или
     /*for (int i = 0; i < numbers.length; i++) {
         numbers[i] = (numbers[i] + i + 1) % 10;
